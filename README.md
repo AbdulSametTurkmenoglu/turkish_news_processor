@@ -6,15 +6,15 @@ News42NLP is a Python-based NLP pipeline for processing the "42bin_haber" Turkis
 
 # Features
 
-'Text Preprocessing:' Normalizes and cleans text, removing stopwords and applying lemmatization/stemming.
+Text Preprocessing: Normalizes and cleans text, removing stopwords and applying lemmatization/stemming.
 
-'TF-IDF Vectorization:' Builds sparse term-document matrices for efficient text representation.
+TF-IDF Vectorization: Builds sparse term-document matrices for efficient text representation.
 
-'Topic Modeling:' Uses Non-Negative Matrix Factorization (NMF) to extract topics.
+Topic Modeling: Uses Non-Negative Matrix Factorization (NMF) to extract topics.
 
-'Search and Classification:' Supports document search via cosine similarity and classification for labeled categories (e.g., magazin, saglik).
+Search and Classification: Supports document search via cosine similarity and classification for labeled categories (e.g., magazin, saglik).
 
-'Optimized Performance:' Leverages multiprocessing for faster processing of large datasets.
+Optimized Performance: Leverages multiprocessing for faster processing of large datasets.
 
 # Installation
 
@@ -67,21 +67,21 @@ python siniflandirma.py
 
 # Files
 
-'main_optimize.py:' Core script for preprocessing and TF-IDF computation.
+main_optimize.py: Core script for preprocessing and TF-IDF computation.
 
-'main_arama.py:' Implements document search using cosine similarity.
+main_arama.py: Implements document search using cosine similarity.
 
-'siniflandirma.py:' Performs classification on labeled categories.
+siniflandirma.py: Performs classification on labeled categories.
 
-'nmf.py:' Applies NMF for topic modeling.
+nmf.py: Applies NMF for topic modeling.
 
-'tokenizer_egitim.py:' Trains a WordPiece tokenizer.
+tokenizer_egitim.py: Trains a WordPiece tokenizer.
 
-'main_tokenizerhali.py:' Processes data using a pre-trained tokenizer.
+main_tokenizerhali.py: Processes data using a pre-trained tokenizer.
 
-'pencereleme.py:' Implements text windowing for contextual analysis.
+pencereleme.py: Implements text windowing for contextual analysis.
 
-'onisleme.py:' Defines text preprocessing functions.
+onisleme.py: Defines text preprocessing functions.
 
 # Requirements
 
