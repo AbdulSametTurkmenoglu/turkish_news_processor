@@ -19,23 +19,22 @@ Optimized Performance: Leverages multiprocessing for faster processing of large 
 # Installation
 
 Clone the repository:
-'''bash
+```bash
 git clone https://github.com/yourusername/News42NLP.git
-'''
+```
 
 Install dependencies:
 
-'''bash
+```bash
 pip install -r requirements.txt
-'''
-
+```
 Download NLTK resources:
 
-'''pyhon
+```pyhon
 import nltk
 nltk.download('stopwords')
 nltk.download('wordnet')
-'''
+```
 
 # Usage
 
