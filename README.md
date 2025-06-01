@@ -42,15 +42,14 @@ Place the "42bin_haber" dataset in the veri/42bin_haber/news/ directory.
 
 Run the main processing script:
 
-'''pyhon
+```pyhon
 python main_optimize.py <category> -p <processes> -d <experiment_name> -b <block_size>
-'''
-
+```
 # Example:
 
-'''pyhon
+```pyhon
 python main_optimize.py spor -p 4 -d deney1 -b 100
-'''
+```
 
 Perform search:
 
@@ -60,9 +59,9 @@ python main_arama.py
 
 Run classification:
 
-'''pyhon
+```pyhon
 python siniflandirma.py
-'''
+```
 
 # Files
 
