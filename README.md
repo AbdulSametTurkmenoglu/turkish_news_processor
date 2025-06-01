@@ -53,9 +53,9 @@ python main_optimize.py spor -p 4 -d deney1 -b 100
 
 Perform search:
 
-'''pyhon
+```pyhon
 python main_arama.py
-'''
+```
 
 Run classification:
 
